@@ -1,6 +1,6 @@
 require('colors');
 
-const math = require('./modules/oper_math.js')
+const math = require('./modules/oper_math.js');
 
 let resultado1 = numeroAleatorio1();
 

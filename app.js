@@ -2,11 +2,11 @@ require('colors');
 
 const math = require('./modules/oper_math.js')
 
+let resultado1 = numeroAleatorio1();
+
 function numeroAleatorio1() {
   return Math.floor(Math.random()*10);
 }
-
-let resultado1 = numeroAleatorio1();
 
 let resultado2 = numeroAleatorio2();
 

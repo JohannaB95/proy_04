@@ -6,11 +6,9 @@ function numeroAleatorio1() {
   return Math.floor(Math.random()*10);
 }
 
-let resultado1;
-resultado1 = numeroAleatorio1();
+let resultado1 = numeroAleatorio1();
 
-let resultado2;
-resultado2 = numeroAleatorio2();
+let resultado2 = numeroAleatorio2();
 
 function numeroAleatorio2() {
     return (Math.floor(Math.random()*10));

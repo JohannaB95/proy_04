@@ -13,6 +13,7 @@ let resultado2 = numeroAleatorio2();
 function numeroAleatorio2() {
     return (Math.floor(Math.random()*10));
 }
+
 console.clear( );
 
 console.log(math);

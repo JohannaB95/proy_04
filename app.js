@@ -1,7 +1,7 @@
 //Se carga la libreria colors para permitir el uso de estilos de colores en la terminal
 require('colors');
 
-//Se carga el código que contiene el archivo oper_math.js en la carpeta modules.
+//Se carga el código que contiene el archivo oper_math.js que se encuentra en la carpeta modules.
 const math = require('./modules/oper_math.js');
 
 //Se declara una variabale llamada resultado1 que almacenara el número aleatorio obtenido en la función numeroAleatorio1()
@@ -15,7 +15,7 @@ function numeroAleatorio1() {
   return Math.floor(Math.random()*10);
 }
 
-//Se declara una variabale llamada resultado1 que almacenara el número aleatorio obtenido en la función numeroAleatorio2()
+//Se declara una variabale llamada resultado2 que almacenara el número aleatorio obtenido en la función numeroAleatorio2()
 let resultado2 = numeroAleatorio2();
 
 //Se declara una función llamada numeroAleatorio2 sin parámetros
